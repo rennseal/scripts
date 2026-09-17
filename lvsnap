@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+sudo lvcreate --size 20G --snapshot --name snap_root /dev/mapper/vg_arch-lv_root
+sudo lvcreate --size 20G --snapshot --name snap_home /dev/mapper/vg_arch-lv_home

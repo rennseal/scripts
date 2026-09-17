@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+sudo lvconvert --merge /dev/mapper/vg_arch-snap_root
+sudo lvconvert --merge /dev/mapper/vg_arch-snap_home

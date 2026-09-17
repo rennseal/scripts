@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+WP_CONF="/home/kiwichan/.config/hypr/hyprpaper.conf"
+WP_DIR="/home/kiwichan/Pictures/wallpapers/"
+NEW_WP=$(for a in ~/Pictures/wallpapers/*; do ls -t | echo -en "$a\0icon\x1f$a\n" ; done | rofi -dmenu -i -p "new wallpaper:")
+
+if [ -n "$NEW_WP" ]; then
+echo "splash = false
+wallpaper {
+    monitor =
+    path = $NEW_WP
+    fit_mode = cover
+}" > $WP_CONF
+pkill hyprpaper
+nohup hyprpaper </dev/null >/dev/null 2>&1 &
+else
+exit
+fi

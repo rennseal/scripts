@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+sudo sstpc --log-stderr --cert-warn --user r.barakin --password x4YNejbGWYSCgj4Z ee.gateway.inferno.name usepeerdns require-mschap-v2 noauth noipdefault noccp refuse-eap refuse-pap refuse-mschap &
+ip r a 10.192.10.0/24 dev ppp0
+ip r a 10.70.0.0/21 dev ppp0
+ip r a 10.71.0.0/21 dev ppp0
+ip r a 10.72.0.0/21 dev ppp0
+ip r a 10.75.0.0/21 dev ppp0

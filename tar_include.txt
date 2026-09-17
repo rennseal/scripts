@@ -1,0 +1,11 @@
+/home/kiwichan/KP
+/home/kiwichan/KP2
+/home/kiwichan/.config
+/home/kiwichan/.scripts
+/home/kiwichan/.bashrc
+/home/kiwichan/.local/share/applications
+/home/kiwichan/.ssh
+/home/kiwichan/obsidian
+/home/kiwichan/visa
+/home/kiwichan/Pictures
+/etc

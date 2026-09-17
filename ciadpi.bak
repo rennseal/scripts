@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec /home/kiwichan/byedpi/ciadpi --disorder -3 --auto=torst --timeout 3 --tlsrec 3+s -i 127.0.0.1 -p 8080

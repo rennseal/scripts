@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#ssh r.barakin@auth.ishosting.com
+ssh r.barakin@175.110.116.124 -p 2222

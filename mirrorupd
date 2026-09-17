@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo reflector --verbose --protocol https -c ru -c fi --sort rate --latest 10 --save /etc/pacman.d/mirrorlist

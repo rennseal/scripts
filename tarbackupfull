@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo tar -czvf /mnt/sdb/backup_full.tar.gz --exclude-from=/home/kiwichan/scripts/tar_exclude.txt /

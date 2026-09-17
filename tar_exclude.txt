@@ -1,0 +1,26 @@
+# Not temporary files                                                           
+/tmp/*
+
+# Not the cache for pacman
+/var/cache/pacman/pkg/*
+
+/mnt/sdb/*
+/mnt/windows/*
+/proc/*
+/sys/*
+/dev/*
+/lost+found/*
+
+/home/kiwichan/.cache/*
+/home/kiwichan/Games/*
+/home/kiwichan/BSManager/*
+/home/kiwichan/swarmui/*
+/home/kiwichan/mnt/*
+/home/kiwichan/sitespeed-result
+/home/kiwichan/Downloads/'Telegram Desktop'*
+/home/kiwichan/ISOs/*
+/home/kiwichan/VMs/*
+/home/kiwichan/.local/share/Steam/steamapps/common/*
+/run/*
+/sys/*
+

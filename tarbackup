@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo tar -czvf /mnt/windows/KP/backup_kp.tar.gz -T /home/kiwichan/scripts/tar_include.txt
